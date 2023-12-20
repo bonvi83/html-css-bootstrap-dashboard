@@ -11,16 +11,25 @@
 }
 
 
-/* .layout {
+main {
     display: flex;
-    background-color: red;
-} */
+}
+
 
 .sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 80px;
-    height: 100%;
     background-color: darkblue;
     color: white;
 
-    border: 2px solid red;
+    /* da aggiustare altezza */
+    height: 1000px;
+}
+
+
+.layout {
+    display: flex;
+    background-color: greys;
 }
