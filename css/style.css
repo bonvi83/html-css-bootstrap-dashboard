@@ -11,7 +11,7 @@
 }
 
 nav {
-    height: 60px;
+    height: 75px;
 }
 
 
@@ -21,15 +21,11 @@ main {
 
 
 .sidebar {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     width: 80px;
-    background-color: darkblue;
+    height: calc(100vh - 75px);
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #051e34;
     color: white;
-
-    /* da aggiustare altezza probabilmente sottraendo altezza navbar */
-    height: calc(100vh - 60px);
 }
 
 
