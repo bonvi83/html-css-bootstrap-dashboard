@@ -10,6 +10,10 @@
     width: 100%;
 }
 
+nav {
+    height: 60px;
+}
+
 
 main {
     display: flex;
@@ -25,7 +29,7 @@ main {
     color: white;
 
     /* da aggiustare altezza probabilmente sottraendo altezza navbar */
-    height: 100vh;
+    height: calc(100vh - 60px);
 }
 
 
