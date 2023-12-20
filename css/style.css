@@ -24,8 +24,8 @@ main {
     background-color: darkblue;
     color: white;
 
-    /* da aggiustare altezza */
-    height: 1000px;
+    /* da aggiustare altezza probabilmente sottraendo altezza navbar */
+    height: 100vh;
 }
 
 
