@@ -11,7 +11,7 @@
 }
 
 nav {
-    height: 75px;
+    height: 65px;
 }
 
 
@@ -48,7 +48,6 @@ section {
 
 
 .core {
-    border: solid 3px red;
 }
 
 .img-code {
