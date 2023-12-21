@@ -33,3 +33,21 @@ main {
     display: flex;
     background-color: greys;
 }
+
+
+
+section {
+    width: calc(100% - 80px)
+}
+
+
+.head-section {
+    background-color: blue;
+    color: white;
+}
+
+
+.core {
+    /* width: 100%; */
+    border: solid 3px red;
+}
